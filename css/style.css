@@ -48,3 +48,14 @@ h1{
 .evidenziato{
     background-color: yellow;
 }
+
+li{
+    /* margin: 0;
+    padding: 0; */
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+
