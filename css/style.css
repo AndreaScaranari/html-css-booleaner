@@ -49,13 +49,20 @@ h1{
     background-color: yellow;
 }
 
-li{
-    /* margin: 0;
-    padding: 0; */
-}
-
 ul{
     margin-bottom: 20px;
 }
 
+table{
+    margin-bottom: 20px;
+}
 
+.finalearticolo{
+    margin-bottom: 20px;
+}
+
+h2{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 20px; 
+}
