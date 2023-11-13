@@ -38,4 +38,13 @@ h1{
 
 .didascalia{
     font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.introarticolo{
+    margin-bottom: 20px;
+}
+
+.evidenziato{
+    background-color: yellow;
 }
