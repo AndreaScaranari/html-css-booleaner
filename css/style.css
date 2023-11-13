@@ -59,7 +59,8 @@ table{
 }
 
 thead > tr{
-   background-color: #20a9e5; 
+   background-color: #20a9e5;
+   color: white;
 }
 
 tbody > tr:nth-child(odd){
@@ -70,13 +71,29 @@ tbody > tr:nth-child(odd){
     margin-bottom: 20px;
 }
 
-td{
-    width: 30%;
-}
-
 h2{
     color: gray;
     font-size: 18px;
     margin-bottom: 20px; 
 }
 
+#purplescreen{
+    background-image: url(/img/monitor.jpg);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    font-style: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#blackscreen{
+    background-image: url(/img/graph.jpg);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    font-style: bold;
+    padding: 10px;
+}
