@@ -55,10 +55,23 @@ ul{
 
 table{
     margin-bottom: 20px;
+    width: 100%
+}
+
+thead > tr{
+   background-color: #20a9e5; 
+}
+
+tbody > tr:nth-child(odd){
+    background-color: #b1e5f2;
 }
 
 .finalearticolo{
     margin-bottom: 20px;
+}
+
+td{
+    width: 30%;
 }
 
 h2{
@@ -66,3 +79,4 @@ h2{
     font-size: 18px;
     margin-bottom: 20px; 
 }
+
