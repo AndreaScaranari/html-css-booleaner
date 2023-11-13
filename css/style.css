@@ -55,7 +55,16 @@ ul{
 
 table{
     margin-bottom: 20px;
-    width: 100%
+    width: 100%;
+    border-spacing:0;
+}
+
+th{
+    width:25%;
+}
+
+tr th:last-child{
+    width: 50%
 }
 
 thead > tr{
@@ -96,4 +105,5 @@ h2{
     color: white;
     font-style: bold;
     padding: 10px;
+    margin-bottom: 10px;
 }
