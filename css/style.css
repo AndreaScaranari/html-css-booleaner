@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero{
+    height: 80px;
+    background-color: #4ea0ff;
+    background-image: url(/img/pattern.png);
+    background-size: 30%;
+}
+
+.heropicture{
+    height: 50%;
+    background-image: url(/img/logo.svg);
+    background-repeat: no-repeat;
+}
