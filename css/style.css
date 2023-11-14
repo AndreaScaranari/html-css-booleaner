@@ -1,82 +1,84 @@
+/* Generics */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.hero{
-    height: 80px;
-    background-color: #4ea0ff;
-    background-image: url(/img/pattern.png);
-    background-size: 30%;
-    display: flex;
-    align-items: center;
-}
-
-.heropicture{
-    height: 50%;
-    width: 20%;
-    background-image: url(/img/logo.svg);
-    background-repeat: no-repeat;
-}
-
-h1{
-    font-size: 39px;
-    margin-top: 20px;
-}
-
-.sottotitolo{
-    margin-bottom: 20px;
-    color: gray;
-    text-decoration: none;
-}
-
-#autore > a{
+a{
     color:#20a9e5;
     text-decoration:none;
 }
 
-.giornopubblicazione{
-    font-size: 10px;
-}
-
-.didascalia{
-    font-size: 12px;
-    margin-bottom: 20px;
-}
-
-.introarticolo{
-    margin-bottom: 20px;
-}
-
-.evidenziato{
-    background-color: yellow;
-}
 
 ul{
-    margin-bottom: 20px;
+    margin: 20px 0;
     list-style-position: inside;
     padding-inline-start: 0;
 }
 
+/* Utils */
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.text-gray {
+    color: #808080;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.w-50{
+    width: 50%;
+}
+
+/* Header */
+#main-header{
+    background-color: #4ea0ff;
+    height: 100px;
+    background-image: url(/img/pattern.png);
+    background-size: 30%;
+    /* display: flex;
+    align-items: center; */
+    line-height: 100px;
+}
+
+#logo{
+    height: 50px;
+    /* margin-top: 25px; */
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+address{
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* Article Pictures */
+.maingallery{
+    margin: 20px 0;
+}
+
+
+/* Tabelle */
 table{
     margin-bottom: 20px;
-    width: 100%;
-    border-spacing:0;
+    /* width: 100%; */
+    border-collapse: collapse;
+    /* border-spacing:0; */
 }
 
-th{
-    width:25%;
-}
-
-tr th:last-child{
+/* tr th:last-child{
     width: 50%
-}
+} */
 
 thead > tr{
    background-color: #20a9e5;
@@ -88,18 +90,20 @@ tbody > tr:nth-child(odd){
     background-color: #b1e5f2;
 }
 
+/* conclusione articolo */
 .finalearticolo{
     margin-bottom: 20px;
 }
 
+/* articoli correlati */
 h2{
     color: gray;
     font-size: 18px;
     margin-bottom: 20px; 
 }
 
-#purplescreen{
-    background-image: url(/img/monitor.jpg);
+/* related articles */
+.related-images{
     height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -109,13 +113,10 @@ h2{
     margin-bottom: 10px;
 }
 
+#purplescreen{
+    background-image: url(/img/monitor.jpg);
+}
+
 #blackscreen{
     background-image: url(/img/graph.jpg);
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: white;
-    font-style: bold;
-    padding: 10px;
-    margin-bottom: 10px;
 }
