@@ -6,7 +6,7 @@
 
 .container{
     max-width: 1100px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .hero{
@@ -60,8 +60,8 @@ h1{
 
 ul{
     margin-bottom: 20px;
-    list-style: inside;
-    padding: 0;
+    list-style-position: inside;
+    padding-inline-start: 0;
 }
 
 table{
